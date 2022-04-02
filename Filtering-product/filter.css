@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list-container{
+    width: 70%;
+    margin: 5px auto;
+    background-color: #ddd;
+    padding: 20px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-list{
+    width: 70%;
+    margin: 10px auto;
+}
+.show-list div{
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: white;
+}

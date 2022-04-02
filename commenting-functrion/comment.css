@@ -1,0 +1,29 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ddd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.comment-box,.comment-container{
+    background-color: rgb(177, 173, 173);
+    padding: 10px 20px;
+    margin: 5px;
+}
+.comment-container > p{
+    margin: 5px;
+
+}
+

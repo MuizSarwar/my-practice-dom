@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ddd;
+    width: 70%;
+    min-height: 150px;
+    margin: 10px auto;
+}
+header > h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight:600;
+}
+main{
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ddd;
+}
+section{background-color: white;}
+.account-balance{
+    margin: 10px 5px;
+    padding: 5px 10px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+
+}
+.account-diposit-withdraw{
+    margin: 10px 5px;
+    padding: 5px 10px;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+

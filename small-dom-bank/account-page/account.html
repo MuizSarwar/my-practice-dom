@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page </title>
+    
+    <link rel="stylesheet" href="./account.css">k
+</head>
+<body>
+    <header>
+        <h2>Welcome to your account !!!</h2>
+    </header>
+
+    <main>
+        <!-- diposit,withdraw,balance section  -->
+        <section class="account-balance">
+            <div>
+                <h3>Total Diposit: <span id="dipositTotal">0</span></h3>
+            </div>
+            <div>
+                <h3>Total withdraw: <span id="withdrawTotal">0</span></h3>
+            </div>
+            <div>
+                <h3>Total Balance: <span id="balanceTotal">1200</span></h3>
+            </div>
+        </section>
+
+        <!-- diposit and withdraw amount  -->
+        <section class="account-diposit-withdraw">
+            <div>
+                <h3>Diposit Amount :</h3>
+                <input type="number" name="diposit" id="diposit">
+                <button id="diposit-btn">Diposit</button>
+            </div>
+            <div>
+                <h3>Withdraw Amount:</h3>
+                <input type="number" name="withdraw" id="withdraw">
+                <button id="withdraw-btn">Withdraw</button>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./account.js"></script>
+
+</body>
+</html>

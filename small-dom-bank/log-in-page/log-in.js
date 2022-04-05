@@ -11,7 +11,7 @@
         logInButton.addEventListener('click',()=>{
 
             if(email.value == 'muizsarwar8880@gmail.com' && password.value == 'tannucom'){
-                console.log('he is valid user ')
+                window.location.href = '../account-page/account.html'
             }
             else{
                 alert('you are not valid user !')
